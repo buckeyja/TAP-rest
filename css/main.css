@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #F0F8FF;  }
+  h2 {
+    color: #336699;
+  }
+  p {
+    color: #665544;
+  }
+  ul {
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+  }
+
+  li a{
+    color: #F0F8FF;
+    padding: 8px;
+  }
+
+  div.hn{
+    background-color: #000000;
+    padding: 4px;
+  }
+  h1.visuallyhidden {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  a.hn-home-link {
+    background-repeat: no-repeat;
+    background-image: url("../logos/TAP_both.svg");
+    background-position: center center;
+  }
+  span.hn-home-text {
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: 50%;
+  }
