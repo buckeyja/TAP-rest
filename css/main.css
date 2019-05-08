@@ -1,40 +1,48 @@
+html { 
+  background: url(../images/brantingham-spring-2019/blue-sky.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
 body {
   font-family: Arial, Verdana, sans-serif;
-  background-color: #F0F8FF;  }
-  h2 {
+  background-color: #F0F8FF; }
+h2 {
     color: #336699;
   }
-  p {
+p {
     color: #665544;
   }
-  ul {
+ul {
     text-align: center;
   }
-  li {
+li {
     display: inline-block;
   }
 
-  li a{
+li a{
     color: #F0F8FF;
     padding: 8px;
   }
 
-  div.hn{
+div.hn{
     background-color: #000000;
     padding: 4px;
   }
-  h1.visuallyhidden {
+h1.visuallyhidden {
     height: 0;
     overflow: hidden;
     position: absolute;
   }
 
-  a.hn-home-link {
+a.hn-home-link {
     background-repeat: no-repeat;
     background-image: url("../logos/TAP_both.svg");
     background-position: center center;
   }
-  span.hn-home-text {
+span.hn-home-text {
     height: 1px;
     width: 1px;
     padding: 0;
