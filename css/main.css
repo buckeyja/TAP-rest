@@ -2,9 +2,6 @@ body {
   font-family: Arial, Verdana, sans-serif;
   background-color: #F0F8FF;
   margin: 0; }
-h2 {
-    color: #336699;
-  }
 p {
     color: #665544;
   }
@@ -20,10 +17,25 @@ li a{
     padding: 8px;
   }
 
+/* Header Navigation (hn) */
+
 div.hn{
     background-color: #000000;
     padding: 4px;
   }
+
+#hn-link-text {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+}
+
+.hn-link-tap {
+    background-size: 32px 44px;
+    background-image: url(../images/TAP_both.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 body {
     background: url(../images/blue-sky.JPG) no-repeat center center fixed; 
@@ -34,7 +46,9 @@ h1.visuallyhidden {
     overflow: hidden;
     position: absolute;
   }
-
+h2 {
+    color: black;
+  }
 a.hn-home-link {
     background-repeat: no-repeat;
     background-image: url("../logos/TAP_both.svg");
