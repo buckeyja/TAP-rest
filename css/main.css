@@ -15,6 +15,7 @@ li {
 li a{
     color: #F0F8FF;
     padding: 8px;
+    text-decoration: none;
   }
 
 /* Header Navigation (hn) */
